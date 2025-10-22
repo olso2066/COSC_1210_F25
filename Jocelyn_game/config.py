@@ -17,8 +17,8 @@ WIDTH = ROOM_WIDTH * GRID_COLS
 HEIGHT = ROOM_HEIGHT * GRID_ROWS
 
 # Colors (R, G, B)
-BG_COLOR = (20, 20, 24)
-WALL_COLOR = (200, 200, 200)
+BG_COLOR = (204, 0, 102)
+WALL_COLOR = (255, 204, 255)
 PLAYER_COLOR = (100, 200, 255)
 BOX_COLOR = (225,153,100)
 
@@ -26,6 +26,6 @@ BOX_COLOR = (225,153,100)
 FPS = 60
 
 # --- Player appearance ---
-PLAYER_IMAGE_PATH = "./goose.png"  # transparent PNG, e.g. 48x48
-PLAYER_IMAGE_SIZE = (48, 48)             # w, h in pixels
+PLAYER_IMAGE_PATH = "./Squirrel.png"  # transparent PNG, e.g. 48x48
+PLAYER_IMAGE_SIZE = (75, 75)             # w, h in pixels
 PLAYER_RADIUS = 24                       # half of width; used by your collision
